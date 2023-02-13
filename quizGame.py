@@ -1,5 +1,10 @@
 # Program which do a small quiz, calculate the score percentege and display the result
+# NOTE: this program was made to refresh and mantain basic python's knowledge
 
+# variables declaration
+score = 0
+
+# Display the welcome message
 print("Welcome to the quiz game!")
 print("You will be asked 4 questions, each question is worth 25 points.")
 
@@ -13,7 +18,6 @@ if answer == "paris":
 else:
     print("Incorrect!")
     print("The correct answer is Paris")
-    score = 0
 
 # Question 2
 print("Question 2: What is the capital of Spain?")
@@ -24,18 +28,16 @@ if answer == "madrid":
 else:
     print("Incorrect!")
     print("The correct answer is Madrid")
-    score = score - 25
 
 # Question 3
 print("Question 3: What is the capital of Italy?")
 answer = input("Enter your answer: ").lower()
-if answer == "roe":
+if answer == "rome":
     print("Correct!")
     score = score + 25
 else:
     print("Incorrect!")
     print("The correct answer is Rome")
-    score = score - 25
 
 # Question 4
 print("Question 4: What is the capital of Brasil?")
