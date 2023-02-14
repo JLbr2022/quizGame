@@ -1,5 +1,5 @@
 # Program which do a small quiz, calculate the score percentege and display the result
-# NOTE: this program was made to refresh and mantain basic python's knowledge
+# NOTE: this program was made to refresh and mantain my basic python's knowledge
 
 # variables declaration
 score = 0
