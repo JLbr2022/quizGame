@@ -75,10 +75,11 @@ def run():
         os.system("cls")  # Windows clear screen
         for character in spaces:
             print(character, end=" ")
+
         print(IMAGES[lives])
         letter = input("Elige una letra: ").upper()
-
         found = False
+
         for idx, character in enumerate(word):
             if character == letter:
                 spaces[idx] = letter
