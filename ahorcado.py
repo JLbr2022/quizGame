@@ -1,3 +1,6 @@
+# Description: Juego del ahorcado
+# Was made to practice python objects, loops, etc.
+
 import random
 import os
 
@@ -59,12 +62,14 @@ def run():
         "PYTHON",
         "JAVA",
         "JAVASCRIPT",
-        "PHP"
+        "CSS",
+        "HTML",
+        "REACT"
     ]
 
     word = random.choice(DB).upper()
     spaces = ["_"] * len(word)
-    lives = 6
+    lives = 8
 
     while True:
         os.system("cls")  # Windows clear screen
